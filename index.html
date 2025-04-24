@@ -1,0 +1,94 @@
+<!-- Tipo de documento -->
+<!DOCTYPE html>
+<!-- Indicamos el idioma de la pagina web -->
+<html lang="en">
+    <!-- encabezado: Es el que manda informacion al navegador-->
+    <head>
+        <!-- metadatos -->
+         <!-- definimos que la pagina trabajara con utf8 es decir aceptara caracteres especiales -->
+        <meta charset="UTF-8">
+        <!-- Definimos que la pagina sera responsive y que se adaptara a la pantalla del dispositivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Definimos un metadatos donde estara una breve descripcion de la pagina-->
+        <meta name="description" content="Practica de HTML y CSS">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Practice Recipe</title>
+    </head>
+    <!-- Cuerpo: Es la parte visible de la pagina web -->
+    <body>
+        <main class="container">
+            <figure>
+                <img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800_fallback/public/2023-06/omelette%20f%C3%A1ciles%20y%20deliciosas.jpg?itok=Eter2cvl"
+                    alt="Picture of a Ha Long Bay sunset">
+            </figure>
+            <!-- El h1 es el titulo principal por lo que solo se utiliza una vez -->
+            <h1>Simple Omelette Recipe</h1>
+            <p class="paragraph">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to
+                perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+            <section class="container-time">
+                <h3 class="sub-title">Preparation time</h3>
+                <ul class="ingredient-list">
+                    <li><b>Total:</b> Approximately 10 minutes</li>
+                    <li><b>Preparation:</b> 5 minutes</li>
+                    <li><b>Cooking:</b> 5 minutes</li>
+                </ul>
+            </section>
+            <section class="container-ingredient">
+                <h3 class="sub-title">Ingredients</h3>
+                <ul class="instruction-list">
+                    <li>2-3 large eggs</li>
+                    <li>Salt, to taste</li>
+                    <li>Pepper, to taste</li>
+                    <li>1 tablespon of butter or oil</li>
+                    <li>Optional fillings: cheese, dice vegetables, cooked meats, herbs</li>
+                </ul>
+            </section>
+            <section class="container-instruction">
+                <h3 class="sub-title">Instructions</h3>
+                <ol>
+                    <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well
+                        mixed. You can add a tablespoon of water or milk for afluffier texture.</li>
+                    <li><b>Heat the pan:</b> Place a non-stick frying pan ober medium heat and add butter or oil.</li>
+                    <li><b>Cook the omelette</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+                        ensure the eggs evenly coat the surface.</li>
+                    <li><b>Add fillings (Optional):</b> When the eggs begin to set at the edges but are still slightly runny
+                        in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                    <li><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over
+                        the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+                    <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+                </ol>
+            </section>
+            <section class="container-nutrition">
+                <h3 class="sub-title">Nutrition</h3>
+                <p>The table below shows nutritional values per serving without the additional fillings</p>
+                <table class="table-nutrition">
+                    <!-- tr = representa una fila ; td= columna-->
+                    <!-- thead= encabezado -->
+                    <!-- tbody= el contenido de la tabla-->
+                    <tbody class="table-body">
+                        <tr class="fila">
+                            <td class="columna">Calories</td>
+                            <td class="columna">277kcal</td>
+                        </tr>
+                        <tr class="fila">
+                            <td class="columna">Carbs</td>
+                            <td class="columna">0g</td>
+                        </tr>
+                        <tr class="fila">
+                            <td class="columna">Protein</td>
+                            <td class="columna">20g</td>
+                        </tr>
+                        <tr class="fila">
+                            <td class="columna">Fat</td>
+                            <td class="columna">22g</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <footer>
+                <h3>Angel Moreno - 2025</h3>
+            </footer>
+        </main>
+    </body>
+    
+    </html>

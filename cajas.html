@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<style>
+    /* Aplicando estilos*/
+    /*Cules son lso selectores en css: cases, id, etiqueta, universal, atributo*/
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1, h2{
+        color: #4f093d;
+    }
+    
+    /* POR CLASE */
+    .title{
+        text-align: center;
+    }
+
+    /* POR ID */
+    #title{
+        /* Unidades de medida: px (pixeles)(para fuentes), em(depende de los contenedores, toma en cuenta el peso), rem (equivale a una cierta cantidad de pixeles, normalmente 16px)*/
+        font-size: 3rem;
+    }
+
+    /* Por atributo */
+    /*a[href="#"]{
+
+    }*/
+
+    section{
+        margin: 1rem;
+        background-color: #f7b0eb;
+        width: 200px;
+        height: 200px;
+    }
+    article{
+        margin: 1rem;
+        background-color: #021bfa;
+        width: 200px;
+        height: 200px;
+        padding: 1rem;
+    }
+
+    .container article:nth-child(2){
+        background-color: #0fc981;
+    }
+
+    article:hover{
+        margin: 1rem;
+        background-color: #c57f17;
+        width: 0px;
+        height: 0px;
+    }
+
+    /* pseudoelemento: agregamos un nuevo contenido al elemento*/
+    .hipervinculo::before{
+        content: "✅";
+    }
+</style>
+<body>
+    <h1 class="title" id="title">Introduccion CSS</h1>
+    <a href="#" class="hipervinculo">Click aqui</a>
+    <section class="container">
+        <article></article>
+        <article></article>
+        <article> Texto del tercer articulo</article>
+    </section>
+    <h2 class="title">Holaaa</h2>
+</body>
+</html>
